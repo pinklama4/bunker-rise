@@ -1,0 +1,21 @@
+.header {
+  padding-top: 20px;
+}
+.header .header-content {
+  display: flex;
+  justify-content: center;
+}
+.header .header-content nav li {
+  list-style-type: none;
+  display: flex;
+  gap: 75px;
+}
+.header .header-content nav li a {
+  text-decoration: none;
+  font-family: Montserrat, serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*# sourceMappingURL=Header.css.map */
