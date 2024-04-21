@@ -1,0 +1,39 @@
+header {
+background: black;
+padding: 10px 20px;
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1769px;
+    align-items: center;
+    .logo {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      h1 {
+        font-weight: 400;
+        font-size: 24px;
+        color: #fff;
+        font-family: Russo One, serif;
+      }
+    }
+    nav {
+      ul {
+        display: flex;
+        gap: 65px;
+
+        list-style-type: none;
+        li{
+          a {
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            color: #fff;
+            font-family: Montserrat, serif;
+          }
+        }
+      }
+    }
+  }
+}
