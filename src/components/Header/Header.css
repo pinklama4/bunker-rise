@@ -1,0 +1,40 @@
+header {
+  background: black;
+  padding: 10px 20px;
+}
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1769px;
+  align-items: center;
+  margin: 0 auto;
+}
+header .header-content .logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+header .header-content .logo h1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  font-family: Russo One, serif;
+}
+header .header-content nav ul {
+  display: flex;
+  gap: 65px;
+  list-style-type: none;
+}
+header .header-content nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  font-family: Montserrat, serif;
+}
+header .header-content nav ul li a:hover {
+  color: #ffa600;
+}
+
+/*# sourceMappingURL=Header.css.map */

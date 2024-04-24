@@ -1,5 +1,5 @@
 import './Header.scss'
-import logoHeader from '../../images/bunklogo.png'
+import logoHeader from '../../Images/bunklogo.png'
 export function Header() {
     return(
         <header>
