@@ -1,0 +1,58 @@
+.wrapper {
+  .instructions {
+    background-image: url("../../Images/background-mainPage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .instructions_content {
+      max-width: 1604px;
+      width: 100%;
+      margin: 0 auto;
+
+
+      .instructions_title {
+        font-family: Montserrat, serif;
+        font-weight: 600;
+        font-size: 32px;
+        color: #fff;
+
+        margin: 197px 0 66px 0;
+      }
+      .instructions_connect {
+        margin-bottom: 101px;
+        p:nth-of-type(1) {
+          font-family: Montserrat, serif;
+          font-weight: 700;
+          font-size: 24px;
+          color: #fff;
+
+          margin-bottom: 28px;
+        }
+        p:nth-of-type(2) {
+          font-family: Montserrat, serif;
+          font-weight: 500;
+          font-size: 16px;
+          color: #fff;
+        }
+      }
+
+      .instructions_create {
+        p:nth-of-type(1) {
+          font-family: Montserrat, serif;
+          font-weight: 700;
+          font-size: 24px;
+          color: #fff;
+
+          margin-bottom: 28px;
+        }
+        p:nth-of-type(2) {
+          font-family: Montserrat, serif;
+          font-weight: 500;
+          font-size: 16px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

@@ -1,16 +1,18 @@
-import {Header} from "../../components/Header/Header";
+
 import pointer from "../../Images/pointer.png"
 import playIMG from "../../Images/play.png"
 
 import './Main.scss'
+
 import {Footer} from "../../components/Footer/Footer";
+import {Header} from "../../components/Header/Header";
 
 
 export function Main()  {
     return (
         <div className="wrapper">
-            <Header/>
             <main className="main-screen">
+                <Header/>
                 <div className="main-screen_content">
                     <h1>BUNKER</h1>
                     <p>RISE</p>

@@ -27,9 +27,13 @@
   padding: 10px 5px;
   background: #ffb800;
   outline: none;
+  cursor: pointer;
   border: 1px solid black;
   border-radius: 10px;
   margin-top: 300px;
+}
+.main-screen .main-screen_content .down-button:hover {
+  background: #ff9900;
 }
 
 .background {
@@ -78,6 +82,9 @@
   font-family: Alumni Sans, serif;
   background: #FFB800;
 }
+.connect .connect-content .connect-content_create-room button:hover {
+  background: #ff9900;
+}
 .connect .connect-content .connect-content_connectGame {
   text-align: center;
 }
@@ -100,13 +107,16 @@
   font-family: Montserrat, serif;
 }
 .connect .connect-content .connect-content_connectGame button {
-  padding: 6px 8px;
+  padding: 7px 10px;
   outline: none;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   margin: 13px 0 0 30px;
   background: #FFB800;
+}
+.connect .connect-content .connect-content_connectGame button:hover {
+  background: #ff9900;
 }
 
 .about-game {
@@ -151,6 +161,9 @@
   font-size: 36px;
   letter-spacing: 0.1em;
   color: #272727;
+}
+.about-game .about-game_content .more-details:hover {
+  background: #ff9900;
 }
 
 /*# sourceMappingURL=Main.css.map */

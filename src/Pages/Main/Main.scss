@@ -28,10 +28,15 @@
       padding: 10px 5px;
       background: #ffb800;
       outline: none;
+      cursor: pointer;
       border: 1px solid black;
       border-radius: 10px;
 
       margin-top: 300px;
+
+      &:hover {
+        background: #ff9900;
+      }
     }
   }
 }
@@ -79,6 +84,9 @@
         font-family: Alumni Sans, serif;
         background: #FFB800;
 
+        &:hover {
+          background: #ff9900;
+        }
       }
     }
 
@@ -104,7 +112,7 @@
         font-family: Montserrat, serif;
       }
       button {
-        padding: 6px 8px;
+        padding: 7px 10px;
         outline: none;
         border: none;
         border-radius: 10px;
@@ -112,6 +120,10 @@
         margin: 13px 0 0 30px;
 
         background: #FFB800;
+
+        &:hover {
+          background: #ff9900;
+        }
       }
     }
   }
@@ -164,6 +176,10 @@
       font-size: 36px;
       letter-spacing: 0.1em;
       color: #272727;
+
+      &:hover {
+        background: #ff9900;
+      }
     }
   }
 }

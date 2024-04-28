@@ -8,6 +8,7 @@ footer .footer-content {
   max-width: 1713px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 10px;
 }
 footer .footer-content .footer-content_logo {
   text-align: center;
