@@ -1,0 +1,35 @@
+.rules {
+  background-image: url("../../Images/background-mainPage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.rules .rules-content {
+  max-width: 1604px;
+  width: 100%;
+  margin: 0 auto;
+}
+.rules .rules-content .rules-content_text h1 {
+  font-family: Montserrat, serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #fff;
+  margin: 140px 0 69px;
+}
+.rules .rules-content .rules-content_text h2 {
+  font-family: Montserrat, serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 51px;
+}
+.rules .rules-content .rules-content_text p {
+  font-family: Montserrat, serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 26px;
+  max-width: 774px;
+}
+
+/*# sourceMappingURL=Rules.css.map */

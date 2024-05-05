@@ -11,7 +11,6 @@ import {Result} from "./Pages/Results/Result";
 import {Rules} from "./Pages/Rules/Rules";
 import {Contacts} from "./Pages/Contacts/Contacts";
 
-
 function App() {
   return (
       <div className="App">
@@ -25,8 +24,7 @@ function App() {
             <Route path="lobbyForGamer" element={<LobbyForGamer/>} />
             <Route path="result" element={<Result/>} />
             <Route path="rules" element={<Rules/>} />
-              <Route path="contacts" element={<Contacts/>} />
-
+            <Route path="contacts" element={<Contacts/>} />
           </Routes>
         </BrowserRouter>
       </div>

@@ -1,0 +1,37 @@
+.about-us {
+  background-image: url("../../Images/background-mainPage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.about-us .about-us_content {
+  max-width: 1604px;
+  width: 100%;
+  margin: 160px auto;
+  padding: 0 10px;
+}
+.about-us .about-us_content h2 {
+  font-family: Montserrat, serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #fff;
+}
+.about-us .about-us_content p {
+  font-family: Montserrat, serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 33px;
+  width: 100%;
+  max-width: 650px;
+}
+.about-us .about-us_content .about-us_contacts {
+  margin-top: 88px;
+}
+.about-us .about-us_content .about-us_contacts .about-us_contacts-links {
+  display: flex;
+  gap: 46px;
+  margin-top: 33px;
+}
+
+/*# sourceMappingURL=AboutUs.css.map */

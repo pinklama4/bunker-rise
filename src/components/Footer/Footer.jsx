@@ -21,7 +21,7 @@ export function Footer() {
                   </p>
               </div>
               <div className="footer-content_nav">
-                  <a href="/contacts">КОНТАКТЫ</a>
+                  <a href="/aboutus">КОНТАКТЫ</a>
                   <a href="/instructions">ИНСТРУКЦИЯ</a>
                   <a href="/rules">ПРАВИЛА</a>
                   <a href="/aboutus">О НАС</a>
